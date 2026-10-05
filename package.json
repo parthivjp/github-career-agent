@@ -1,0 +1,16 @@
+{
+  "name": "github-career-agent",
+  "version": "1.0.0",
+  "description": "AI agent (Gemini function calling) that reads GitHub repos and writes resume points",
+  "main": "agent.js",
+  "scripts": {
+    "start": "node agent.js",
+    "serve": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
